@@ -1,0 +1,105 @@
+*{
+    margin:0 auto;
+    padding:0;
+}
+body{
+    background-color: white;
+}
+/*--------------
+personal section start
+---------------*/
+.container{
+    width: 1000px;
+    padding: 20px;
+    background-color: rgb(199, 243, 243);
+    margin:0 auto;
+}
+.image{
+    height: 120px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.bio{
+    color:rgb(11, 166, 255);
+    float: left;
+    padding: 25px;
+    
+}
+.contract{
+  padding:20px;
+  float: right;
+
+}
+h1,h3,h2,h4,h5,h6{
+    color:rgb(6, 70, 209)
+}
+.contract p a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.contract p a:hover{
+    color:red;
+}
+.clear{
+    clear: both;
+}
+hr{
+    border: 2px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*--------------
+personal section end
+---------------*/
+
+/*--------------
+education section start
+---------------*/
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float:left;
+}
+.edu1{
+    width: 25%;
+    float: left;
+}
+.edu2{
+    width: 25%;
+    float: left;
+}
+.edu3{
+    width: 25%;
+    float: right;
+}
+.edu4{
+    width: 25%;
+    float: right;
+}
+.footer-section{
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding:10px;
+}
+.footer-section a{
+    text-decoration: none;
+    color:white;
+}
+.footer-section p{
+    color:white;
+    margin-top: 20px;
+}
+.footer-section a:hover{
+    color:red;
+}
+
+
